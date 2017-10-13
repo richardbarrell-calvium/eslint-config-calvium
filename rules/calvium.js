@@ -27,7 +27,6 @@ module.exports = {
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
   rules: {
-    'generator-star-spacing': 0, /* to fix issue https://github.com/babel/babel-eslint/issues/316 */
     'global-require': 0,
     'no-underscore-dangle': 0,
     'new-cap': 0,
