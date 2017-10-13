@@ -5,7 +5,8 @@ module.exports = {
   },
   plugins: [
     'flowtype',
-    'react-native'
+    'react-native',
+    'promise'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -30,6 +31,7 @@ module.exports = {
     'global-require': 0,
     'no-underscore-dangle': 0,
     'new-cap': 0,
+    'promise/catch-or-return': 'error',
     'flowtype/require-parameter-type': [
       2,
       {
