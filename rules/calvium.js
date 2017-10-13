@@ -28,6 +28,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'new-cap': 0,
     'promise/catch-or-return': 'error',
+    'flowtype/define-flow-type': 2,
     'flowtype/require-parameter-type': [
       2,
       {
